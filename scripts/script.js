@@ -19,12 +19,12 @@ function showSlides() {
 
 
 
-
 // End of Your Code . Don't delete that line below!!
 });
 
-const circleType = new CircleType(document.getElementById('demo1'))
-	.radius(120);
 
-
-
+let y = document.getElementsByTagName("h2");
+let i;
+for (i = 0; i < y.length; i++) {
+	const circleType = new CircleType(y[i]).radius(200)
+}
