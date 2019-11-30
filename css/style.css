@@ -21,7 +21,7 @@ header {
 }
 
 .bg {
-	background: url("../images/bg_pattern.png") repeat 0 0;
+	background: url("./images/bg_pattern.png") repeat 0 0;
 	background-attachment: fixed;
   	background-position: center;
 
