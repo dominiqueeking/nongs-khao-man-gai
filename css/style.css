@@ -9,8 +9,6 @@ body {
 	height:100%;
 	min-width: 100%;
 	margin: auto;
-
-
 	 }
 
 
@@ -22,12 +20,12 @@ footer {
 }
 
 
-
+/*
 header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-
+*/
 
 .homepage header{
 	background: url("../images/chickenandrice_home.jpg");
