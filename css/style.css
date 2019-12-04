@@ -20,12 +20,11 @@ footer {
 }
 
 
-/*
+
 header {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
-*/
 
 .homepage header{
 	background: url("../images/chickenandrice_home.jpg");
@@ -33,7 +32,6 @@ header {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
-	min-height: 1000px;
 	background-color: #F7D65E;
 }
 
