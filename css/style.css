@@ -85,8 +85,6 @@ header {
 }
 
 
-
-
 p {
 	padding: ;
 }
@@ -334,6 +332,27 @@ input[type=text], input[type=submit] {
 input[type=text] {
 	width: 280px;
 }
+
+@media only screen and (max-width: 767px) {
+
+
+	.grid {
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+	
+	.grid_about {
+		grid-template-columns: 1fr;
+	}
+
+	.shopping {
+		grid-template-columns: 1fr;
+	}
+
+   
+
+}
+
 
 @media only screen and (min-width: 768px) {
 
