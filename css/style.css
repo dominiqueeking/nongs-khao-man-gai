@@ -296,6 +296,8 @@ iframe {
 	min-height: 300px;
 	margin: auto;
 	display: inline-block;
+	overflow: auto;
+	position: relative;
 }
 
 form  {
