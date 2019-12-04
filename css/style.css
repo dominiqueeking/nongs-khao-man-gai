@@ -15,10 +15,8 @@ body {
 footer {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	margin-top: auto;
 
 }
-
 
 
 header {
@@ -32,6 +30,7 @@ header {
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
+	min-height: 1000px;
 	background-color: #F7D65E;
 }
 
@@ -188,7 +187,6 @@ main {
 	grid-gap: 50px;
 	width: 70%;
 	margin: auto;
-	overflow: hidden;
 }
 
 .about {
@@ -279,7 +277,7 @@ main {
 
 /* hamburger nav*/
 label {
-    margin: 50px 80px;
+    margin: 50px ;
     font-size: 35px;
     line-height: 70px;
     display: none;
@@ -288,7 +286,6 @@ label {
 
 #toggle {
     display: none;
-    overflow: hidden;
 }
 
 
@@ -331,7 +328,6 @@ input[type=text], input[type=submit] {
 
 input[type=text] {
 	width: 280px;
-	overflow: hidden;
 }
 
 @media only screen and (max-width: 749px) {
@@ -340,6 +336,7 @@ input[type=text] {
 	.grid {
 		grid-template-columns: 1fr;
 		width: 100%;
+		margin: auto;
 	}
 	
 	.grid_about {
@@ -443,24 +440,22 @@ input[type=text] {
 
 
 	.grid_about .right-row2 {
-	grid-column: 2;
-	grid-row: 2;
-}
-.grid_about .left-row2 {
-	grid-column: 1;
-	grid-row: 2;
-}
+		grid-column: 2;
+		grid-row: 2;
+	}
+	.grid_about .left-row2 {
+		grid-column: 1;
+		grid-row: 2;
+	}
 
-.grid_about .right-row4 {
-	grid-column: 2;
-	grid-row: 4;
-}
-.grid_about .left-row4 {
-	grid-column: 1;
-	grid-row: 4;
-}
-
-
+	.grid_about .right-row4 {
+		grid-column: 2;
+		grid-row: 4;
+	}
+	.grid_about .left-row4 {
+		grid-column: 1;
+		grid-row: 4;
+	}
 
 
 }
